@@ -1,0 +1,11 @@
+.product-page {
+    &__top-bar {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__buttons-wrapper {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+}
