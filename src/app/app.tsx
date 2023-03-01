@@ -1,13 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { ProductPage } from './pages/product-page/product-page';
+import { AppRouter } from './router/app-router';
 
 export function App() {
-    return (
-        <>
-            <ProductPage />
-            <div />
-        </>
-    );
+    return <AppRouter />;
 }
 
 export default App;
